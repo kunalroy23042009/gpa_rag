@@ -1,0 +1,9 @@
+name = "gpa-api-proxy"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+# The GEMINI_API_KEY is set via `wrangler secret put GEMINI_API_KEY`
+# It is NEVER stored in this file or committed to version control.
+
+[observability]
+enabled = true
